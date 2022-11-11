@@ -1,0 +1,19 @@
+.bg{
+    opacity: 0.99;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+.title {
+    font-size: 82pt;
+    font-family: sans-serif;
+    color: darkviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    text-align: left;
+
+}
