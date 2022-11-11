@@ -1,19 +1,101 @@
+body {
+    background-image: url(IMG_6664\ \(1\).jpg);
+    background-size: cover;
+    margin: 0;
+}
+
 .bg{
-    opacity: 0.99;
+    filter:  brightness(34%);
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
-    height: auto;
+    height: 100%;
+    z-index: 0;
+}
+.maintext {
+    font-size: 50pt;
+    text-align: left;
+}
+h2.sub {
+    font-size: 35pt;
+    position: absolute;
+    color: white;
+    font-family: sans-serif;
+    text-align: left;
+    z-index: 999;
+    top:65%;
+    left: 6%;
 }
 .title {
-    font-size: 82pt;
+    position: absolute;
     font-family: sans-serif;
-    color: darkviolet;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 500px;
-    text-align: left;
+    color: rgb(72, 143, 235);
+    top: 40%;
+    left: 5%;
+    filter: brightness(140%);
+}
+.navbar {  
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    padding: 10px 0;
+    width: 20%;
+    height: 20%;
+    filter: brightness(50%);
+}
+nav{
+    float: right; 
+}
+nav ul {
+    margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 100px;
+    padding-top: 40px;
+    position: relative;
+}
+
+nav a {
+    color:aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
 
 }
+nav a:hover {
+    color: #444;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #444;
+  
+    position: absolute;
+    top: 0;
+    width: 0%;
+  
+    transition: all ease-in-out 250ms;
+  }
+  
+  nav a:hover::before {
+    width: 100%;
+  }
