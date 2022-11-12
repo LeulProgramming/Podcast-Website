@@ -1,5 +1,5 @@
 body {
-    background-image: url(IMG_6664\ \(1\).jpg);
+    background-image: url(blur.png);
     background-size: cover;
     margin: 0;
 }
@@ -64,6 +64,7 @@ nav ul {
     margin: 0;
   padding: 0;
   list-style: none;
+  font-family: sans-serif;
 }
 
 nav li {
@@ -71,7 +72,6 @@ nav li {
     margin-left: 100px;
     padding-top: 40px;
     position: relative;
-    font-family: sans-serif;
 }
 
 nav a {
@@ -100,3 +100,39 @@ nav a::before {
   nav a:hover::before {
     width: 100%;
   }
+  .episode-text {
+    color: white;
+    position:absolute;
+    top: 10%;
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    right: 23%;
+
+  }
+  .spotify-embed{
+    position: absolute;
+    top: 50%;
+    right: 50%
+  }
+  .subepi-text{
+    color: white;
+    position: absolute;
+    top : 30%;
+    text-align: center;
+    font-size: 12;
+    right: 20%;
+    
+    
+    font-family: sans-serif;
+  }
+  .contact-text{
+    color: white;
+    position: absolute;
+    top : 20%;
+    right: 70%;
+    font-size: 20px;
+    font-family: sans-serif;
+
+  }
+    
